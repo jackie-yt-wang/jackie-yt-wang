@@ -5,9 +5,8 @@ filenametime=$(date +"%m%d%Y%H%M%S")
 
 #########################################################
 # SET VARIABLES 
-# dir_path=$(cd "$(dirname "${BASH_SOURCE:-$0}")" && pwd)
-# export BASE_FOLDER=$GITHUB_WORKSPACE
-export BASE_FOLDER='/Users/apple/Desktop/DataEngineeringBootCamp/GithubProfile/jackie-yt-wang'
+export BASE_FOLDER=$GITHUB_WORKSPACE
+# export BASE_FOLDER='/Users/apple/Desktop/DataEngineeringBootCamp/GithubProfile/jackie-yt-wang'
 export SCRIPTS_FOLDER=${BASE_FOLDER}'/scripts'
 export LOGDIR=${BASE_FOLDER}'/logs'
 export SHELL_SCRIPT_NAME='update_github_readme'
