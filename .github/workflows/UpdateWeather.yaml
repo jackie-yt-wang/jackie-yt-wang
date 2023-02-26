@@ -3,6 +3,7 @@ name: Update Weather
 on:
   schedule:
     - cron: "0 7,12,16 * * *"
+  workflow_dispatch:
 
 jobs:
   update-readme:
