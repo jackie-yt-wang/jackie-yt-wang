@@ -6,6 +6,7 @@ import re
 import os
 import sys
 import importlib
+from emoji import emojize
 
 BaseFolder = os.environ.get('BASE_FOLDER')
 ScriptsFolder = os.environ.get('SCRIPTS_FOLDER')
@@ -37,18 +38,19 @@ sunrise = datetime.datetime.fromtimestamp(sunrise_timestamp).strftime("%H:%M")
 sunset = datetime.datetime.fromtimestamp(sunset_timestamp).strftime("%H:%M")
 current_time = datetime.datetime.now().strftime("%A, %d %B, %H:%M %Z")
 
-# Format the output for your README
-output = f"<br/>Currently, the weather is: <b>{temperature}°C, <i>{weather_description}</i></b></br>Today, the sun rises at <b>{sunrise}</b> and sets at <b>{sunset}</b>.</p>\n<p align='center'>This <i>README</i> file was last refreshed on {current_time}.</p>\n<h3>Where to find me</h3>"
+# Define the weather emoji based on the weather description
+if "cloud" in weather_description:
+    weather_emoji = emojize(":cloud:", use_aliases=True)
+elif "sun" in weather_description or "clear" in weather_description:
+    weather_emoji = emojize(":sunny:", use_aliases=True)
+elif "rain" in weather_description:
+    weather_emoji = emojize(":rain_cloud:", use_aliases=True)
+elif 'snow' in weather_description:
+    weather_emoji = mojize(':snowflake:', use_aliases=True)
+else:
+    weather_emoji = ""
 
-# Read the content of your README file
-with open(BaseFolder+'/README.md', 'r') as file:
-    content = file.read()
-
-# Write the updated content to your README file
-with open(BaseFolder+'/README.md', 'w') as file:
-    file.write(re.sub(r"<br\/>Currently,.*<\/p>", output, content))
-
-output = f"<br/>Currently, the weather is: <b>{temperature}°C, <i>{weather_description}</i></b></br>Today, the sun rises at <b>{sunrise}</b> and sets at <b>{sunset}</b>.</p>This <i>README</i> file was last refreshed on {current_time}.</p>"
+output = f"<br/>Currently, the weather is: <b>{temperature}°C, <i>{weather_description}</i></b>{weather_emoji}</br>Today, the sun rises at <b>{sunrise}</b> and sets at <b>{sunset}</b>.</p>This <i>README</i> file was last refreshed on {current_time}.</p>"
 
 # Read the content of your README file
 with open(BaseFolder+'/README.md', 'r+') as file:
