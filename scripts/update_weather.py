@@ -10,16 +10,17 @@ from emoji import emojize
 
 BaseFolder = os.environ.get('BASE_FOLDER')
 ScriptsFolder = os.environ.get('SCRIPTS_FOLDER')
-secrets_file = os.path.join(os.environ.get('SCRIPTS_FOLDER'), 'secrets.py')
+
+# secrets_file = os.path.join(os.environ.get('SCRIPTS_FOLDER'), 'secrets.py')
 # spec = importlib.util.spec_from_file_location('secrets', secrets_file)
 # secrets = importlib.util.module_from_spec(spec)
 # spec.loader.exec_module(secrets)
 # apikey = secrets.apikey
 # lat = secrets.lat
 # lon = secrets.long
-apikey = os.environ.get('APIKEY')
-lat = os.environ.get('LAT')
-lon = os.environ.get('LONG')
+apikey = os.environ('APIKEY')
+lat = os.environ('LAT')
+lon =os.environ('LONG')
 
 # Call the OpenWeatherMap API to get the current weather data for your location
 url = f"https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&appid={apikey}&units=imperial"
@@ -29,8 +30,6 @@ weather_data = json.loads(response.text)
 # Get the temperature and weather description
 temperature = weather_data['current']['temp']
 weather_description = weather_data['current']['weather'][0]['description']
-city = 'St Paul'
-state = 'MN'
 
 # Get the sunrise and sunset times
 sunrise_timestamp = weather_data['current']['sunrise']
