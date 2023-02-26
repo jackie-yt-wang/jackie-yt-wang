@@ -16,7 +16,9 @@ jobs:
         with:
           python-version: "3.11"
       - name: Install dependencies
-        run: pipenv install
+        run: |
+            pip install pipenv
+            pipenv install
       - name: Update Weather
         run: |
           pipenv runn python update_weather.py
