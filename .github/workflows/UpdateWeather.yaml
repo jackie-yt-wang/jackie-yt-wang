@@ -24,7 +24,7 @@ jobs:
             pipenv install
       - name: Update Weather
         run: |
-          pipenv runn python update_weather.py
+          pipenv run python update_weather.py
           git config --global user.email "jackie.yt.wang@gmail.com"
           git config --global user.name "Jackie Wang"
           git add README.md
