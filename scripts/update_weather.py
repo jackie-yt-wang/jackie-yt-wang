@@ -40,13 +40,13 @@ current_time = datetime.datetime.now().strftime("%A, %d %B, %H:%M %Z")
 
 # Define the weather emoji based on the weather description
 if "cloud" in weather_description:
-    weather_emoji = emojize(":cloud:", use_aliases=True)
+    weather_emoji = emojize(":cloud:")
 elif "sun" in weather_description or "clear" in weather_description:
-    weather_emoji = emojize(":sunny:", use_aliases=True)
+    weather_emoji = emojize(":sunny:")
 elif "rain" in weather_description:
-    weather_emoji = emojize(":rain_cloud:", use_aliases=True)
+    weather_emoji = emojize(":rain_cloud:")
 elif 'snow' in weather_description:
-    weather_emoji = mojize(':snowflake:', use_aliases=True)
+    weather_emoji = emojize(':snowflake:')
 else:
     weather_emoji = ""
 

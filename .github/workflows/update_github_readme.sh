@@ -23,7 +23,7 @@ exec 2> >(tee ${LOG_FILE})
 # RUN PYTHON
 echo 'Install necessary Python Libraries'
 pipenv install
-echo "Start to run Python Script"
+echo "Start to run Python Script and Update ReadMe"
 pipenv run python3 ${SCRIPTS_FOLDER}/${PYTHON_SCRIPT}
 
 RC1=$?
