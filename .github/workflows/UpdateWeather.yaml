@@ -24,7 +24,7 @@ jobs:
             pipenv install
       - name: Update Weather
         run: |
-          .chmod +x .github/workflows/update_github_readme.sh
+          chmod +x .github/workflows/update_github_readme.sh
           ./.github/workflows/update_github_readme.sh
           git config --global user.email "jackie.yt.wang@gmail.com"
           git config --global user.name "Jackie Wang"
