@@ -19,9 +19,9 @@ ScriptsFolder = os.environ.get('SCRIPTS_FOLDER')
 # lat = secrets.lat
 # lon = secrets.long
 
-apikey = os.environ['APIKEY']
-lat = os.environ['LAT']
-lon =os.environ['LONG']
+# apikey = os.environ['APIKEY']
+# lat = os.environ['LAT']
+# lon =os.environ['LONG']
 
 # Call the OpenWeatherMap API to get the current weather data for your location
 url = f"https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&appid={apikey}&units=imperial"
