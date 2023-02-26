@@ -1,5 +1,4 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
-![code](https://user-images.githubusercontent.com/53910269/221389870-0a91034f-a249-4667-88bf-97a258eb7439.gif)
 
 <p>Welcome to my page! </br> I'm Jackie, a Data Developer! Wait what's that? 
 Well.. I am a Data Scientist on pen and paper, but under the hood I'm a Data Engineer!
