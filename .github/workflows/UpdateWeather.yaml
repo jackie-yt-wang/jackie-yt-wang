@@ -23,6 +23,10 @@ jobs:
             pip install pipenv
             pipenv install
       - name: Update Weather
+        env: 
+          apikey: ${{ secrets.APIKEY }} 
+          lat: ${{ secrets.LAT }} 
+          lon: ${{ secrets.LONG }} 
         run: |
           chmod +x .github/workflows/update_github_readme.sh
           ./.github/workflows/update_github_readme.sh
@@ -31,3 +35,4 @@ jobs:
           git add README.md
           git commit -m "Update weather"
           git push origin main
+      
