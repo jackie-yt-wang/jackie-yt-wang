@@ -28,6 +28,7 @@ jobs:
           lat: ${{ secrets.LAT }} 
           lon: ${{ secrets.LONG }} 
         run: |
+          echo $lat
           chmod +x .github/workflows/update_github_readme.sh
           ./.github/workflows/update_github_readme.sh
           git config --global user.email "jackie.yt.wang@gmail.com"
