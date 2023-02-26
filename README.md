@@ -1,4 +1,4 @@
-<img align="right" alt="GIF" src="https://github.com/jackie-yt-wang/jackie-yt-wang/blob/main/code.gif?raw=True" width="380" height="300" />
+<img align="right" alt="GIF" src="https://github.com/jackie-yt-wang/jackie-yt-wang/blob/main/code.gif?raw=True" width="380" height="280" />
 
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
 
