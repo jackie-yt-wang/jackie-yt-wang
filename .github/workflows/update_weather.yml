@@ -1,0 +1,26 @@
+name: Update Weather
+
+on:
+  schedule:
+    - cron: "0 7,12,16 * * *"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pipenv install
+      - name: Update Weather
+        run: |
+          pipenv runn python update_weather.py
+          git config --global user.email "jackie.yt.wang@gmail.com"
+          git config --global user.name "Jackie Wang"
+          git add README.md
+          git commit -m "Update weather"
+          git push origin main
