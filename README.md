@@ -27,14 +27,6 @@ Well.. I am a Data Scientist on pen and paper, but under the hood I'm a Data Eng
 <img alt="Shell Scripting" src="https://img.shields.io/badge/-Shell%20Scripting-121011?style=flat-square&logo=gnu-bash&logoColor=white" />
 <img alt="Ubuntu" src="https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=Ubuntu&logoColor=white" />
 
-<br/>Currently, the weather is: <b>17.83°F, <i>clear sky</i></b></br>Today, the sun rises at <b>06:58</b> and sets at <b>17:53</b>.</p>
-<h3>Where to find me</h3>
-<h3>Where to find me</h3>
+<br/>Currently, the weather is: <b>16.25°C, <i>clear sky</i></b></br>Today, the sun rises at <b>06:58</b> and sets at <b>17:53</b>.</p>This <i>README</i> file was last refreshed on Saturday, 25 February, 23:17 .</p>
 <h3>Where to find me</h3>
 <p><a href="https://github.com/jackie-yt-wang" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> <a href="https://www.linkedin.com/in/jackie-yutang-wang/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-</p>
-
-------------
-<p align="center">This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Sunday, 26 February, 01:03 CET<br /><a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">Create your own here!</a></p>
-<p align="center"><img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg" /> <img alt="Stars" src="https://img.shields.io/github/stars/thmsgbrt/thmsgbrt?style=flat-square&labelColor=343b41"/> <img alt="Forks" src="https://img.shields.io/github/forks/thmsgbrt/thmsgbrt?style=flat-square&labelColor=343b41"/></p>
-
