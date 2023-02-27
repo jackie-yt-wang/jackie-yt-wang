@@ -1,9 +1,8 @@
 <img align="right" alt="GIF" src="https://github.com/jackie-yt-wang/jackie-yt-wang/blob/main/code.gif?raw=True" width="380" height="280" />
 
-<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/>Welcome to my page!</h1>
+<h1>Hello Friends, Welcome to my Github</h1>
 
-I'm Jackie, a Data Developer! Wait what's that? 
-Well.. I am a Data Scientist on pen and paper, but I'm always open to learn about all things development and engineering!
+I'm Jackie, a Data Developer! I am a Data Scientist on pen and paper, and on the side, I love building and engineering things!
 <h3>Things I code with</h3>
 <p>
 <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
