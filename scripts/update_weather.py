@@ -11,21 +11,16 @@ import base64
 
 BaseFolder = os.environ.get('BASE_FOLDER')
 ScriptsFolder = os.environ.get('SCRIPTS_FOLDER')
+apikey = os.environ.get('APIKEY')
 
 # secrets_file = os.path.join(os.environ.get('SCRIPTS_FOLDER'), 'secrets.py')
 # spec = importlib.util.spec_from_file_location('secrets', secrets_file)
 # secrets = importlib.util.module_from_spec(spec)
 # spec.loader.exec_module(secrets)
 # apikey = secrets.apikey
-# lat = secrets.lat
-# lon = secrets.long
 
-apikey_encrypted = os.environ.get('apikey')
-apikey = base64.b64decode(apikey_encrypted).decode('utf-8')
-lat_encrypted = os.environ.get('lat')
-lat = base64.b64decode(lat_encrypted).decode('utf-8')
-lon_encrypted = os.environ.get('lon')
-lon = base64.b64decode(lon_encrypted).decode('utf-8')
+lat ='44.9670'
+lon = '-93.193816'
 
 # Call the OpenWeatherMap API to get the current weather data for your location
 url = f"https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&appid={apikey}&units=imperial"
