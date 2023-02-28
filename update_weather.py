@@ -6,10 +6,9 @@ import re
 import os
 from emoji import emojize
 
-# apikey = os.environ['APIKEY']
+apikey = os.environ['APIKEY']
 BaseFolder = os.environ.get('BASE_FOLDER')
 ScriptsFolder = os.environ.get('SCRIPTS_FOLDER')
-apikey = '16bbb6d5c78389fdcc7f64d8826e2c8d'
 
 
 # Define a function to get the current weather data for a location and return the temperature, weather description, weather emoji, sunrise, and sunset
