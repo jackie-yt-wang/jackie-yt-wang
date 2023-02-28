@@ -1,6 +1,16 @@
-<h1>Hello Friends, Welcome!</h1><img align="center" alt="GIF" src="https://github.com/jackie-yt-wang/jackie-yt-wang/blob/main/code.gif?raw=True" width="280" height="190" /><p>
-<p>I'm Jackie, a Data Developer currently located in the St Paul, Minnesota!I often travel between the Twin Cities and Los Angeles metro area. I am a foodie 🍜🥘🍣🍖😋 and love playing bball 🏀 with my friends! I am a Data Scientist on pen and paper, but when I'm free, I love to build and engineer things! During the weekends, I volunteered at [IUSM MN](https://iusmatumn.org/), a christian minsitry serving international students at the University of Minnesota.<p>
-
+<h1>Hello Friends, Welcome!</h1>
+<img align="right" alt="GIF" src="https://github.com/jackie-yt-wang/jackie-yt-wang/blob/main/code.gif?raw=True" width="280" height="190" />
+<p>
+<h3>Here are some fun facts about me:</h3>
+<ul>
+<li>I'm Jackie. Nice to meet you👋!</li>
+<li>I'm a Data Developer located in the land of snow ❄️, also known as the Twin Cities.</li>
+<li>I am a foodie 🍜🥘🍣🍖😋 and love playing bball 🏀.</li>
+<li>I am a Data Scientist on pen and paper, but when I'm free, I love to build and engineer things.</li>
+<li>I often travel between the Twin Cities and Los Angeles metro area.</li>
+<li>During the weekends, I volunteered at <a href="https://iusmatumn.org/" target="_blank">IUSM MN</a>, a Christian ministry serving international students at the University of Minnesota.</li>
+</ul>
+</p>
 <h3>Things I code with</h3>
 <p>
 <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
@@ -24,4 +34,4 @@
 <img alt="Shell Scripting" src="https://img.shields.io/badge/-Shell%20Scripting-121011?style=flat-square&logo=gnu-bash&logoColor=white" />
 <img alt="Ubuntu" src="https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=Ubuntu&logoColor=white" />
 
-  <br/>Currently, the weather in St Paul, MN is: <b>38.66°F, <i>overcast clouds</i></b>☁️</br>And the weather in Los Angeles, CA is: <b>56.80°F, <i>few clouds</i></b>☁️</br>Today, in St Paul, MN the sun rises at <b>06:52</b> and sets at <b>17:57</b>.<br/><br/><img align='left' alt='jpg' src='https://thumbs.dreamstime.com/b/twin-cities-skyline-monochrome-silhouette-vector-illustration-203367510.jpg' width='280' height='210' /><br/><img align='left' alt='jpg' src='https://static.vecteezy.com/system/resources/previews/013/749/922/original/los-angeles-city-skyline-silhouette-background-in-california-landscape-black-and-white-silhouette-vector.jpg' width='280' height='210' /><br/><br/><br/><br/><br/><br/><br/><br/><br/><hr><h3>Where to find me</h3><p><a href='https://github.com/jackie-yt-wang' target='_blank'><img alt='Github' src='https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white' /></a> <a href='https://www.linkedin.com/in/jackie-yutang-wang/' target='_blank'><img alt='LinkedIn' src='https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white' /></a><br/><br/>This <i>README</i> file was last refreshed on Tuesday, 28 February, 03:31 PM .</p>
+ <br/>Currently, the weather in St Paul, MN is: <b>38.98°F, <i>overcast clouds</i></b>☁️</br>And the weather in Los Angeles, CA is: <b>56.61°F, <i>few clouds</i></b>☁️</br>Today, in St Paul, MN the sun rises at <b>06:52</b> and sets at <b>17:57</b>.<br/><br/><img align='left' alt='jpg' src='https://thumbs.dreamstime.com/b/twin-cities-skyline-monochrome-silhouette-vector-illustration-203367510.jpg' width='280' height='210' /><br/><img align='left' alt='jpg' src='https://static.vecteezy.com/system/resources/previews/013/749/922/original/los-angeles-city-skyline-silhouette-background-in-california-landscape-black-and-white-silhouette-vector.jpg' width='280' height='210' /><br/><br/><br/><br/><br/><br/><br/><br/><br/><hr><h3>Where to find me</h3><p><a href='https://github.com/jackie-yt-wang' target='_blank'><img alt='Github' src='https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white' /></a> <a href='https://www.linkedin.com/in/jackie-yutang-wang/' target='_blank'><img alt='LinkedIn' src='https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white' /></a><br/><br/>This <i>README</i> file was last refreshed on Tuesday, 28 February, 03:26 PM .</p>
