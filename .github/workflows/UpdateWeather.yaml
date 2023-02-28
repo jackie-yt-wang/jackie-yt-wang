@@ -33,7 +33,7 @@ jobs:
           export LOG_FILE=${LOGDIR}/${SHELL_SCRIPT_NAME}_${filenametime}.log
           export PYTHON_SCRIPT='update_weather.py'
           export APIKEY=$(echo "$APIKEY" | base64 -d)
-          pipenv run python3 update_weather.py
+          pipenv run python3 ${SCRIPTS_FOLDER}/${PYTHON_SCRIPT}
           git config --global user.email "jackie.yt.wang@gmail.com"
           git config --global user.name "Jackie Wang"
           git add README.md
