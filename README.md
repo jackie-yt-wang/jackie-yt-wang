@@ -1,6 +1,6 @@
 <img align="right" alt="GIF" src="https://github.com/jackie-yt-wang/jackie-yt-wang/blob/main/code.gif?raw=True" width="380" height="280" />
 
-<h1>Hello Friends, Welcome to my Github!</h1>
+<h1>Hello Friends, Welcome!</h1>
 
 I'm Jackie, a Data Developer currently located in the St Paul, Minnesota! I am a Data Scientist on pen and paper, but when I'm free I love to build and engineer things!
 <h3>Things I code with</h3>
@@ -26,6 +26,6 @@ I'm Jackie, a Data Developer currently located in the St Paul, Minnesota! I am a
 <img alt="Shell Scripting" src="https://img.shields.io/badge/-Shell%20Scripting-121011?style=flat-square&logo=gnu-bash&logoColor=white" />
 <img alt="Ubuntu" src="https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=Ubuntu&logoColor=white" />
 
-<br/>Currently, the weather in St Paul, MN is: <b>29.59°F, <i>few clouds</i></b>☁️</br>Today, the sun rises at <b>12:52</b> and sets at <b>23:58</b>.</p>This <i>README</i> file was last refreshed on Tuesday, 28 February, 16:08 .</p>
+<br/>Currently, the weather in St Paul, MN is: <b>29.61°F, <i>few clouds</i></b>☁️</br>Today, the sun rises at <b>06:52</b> and sets at <b>17:58</b>.</p>This <i>README</i> file was last refreshed on Tuesday, 28 February, 10:13 .</p>
 <h3>Where to find me</h3>
 <p><a href="https://github.com/jackie-yt-wang" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> <a href="https://www.linkedin.com/in/jackie-yutang-wang/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
