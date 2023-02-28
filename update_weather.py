@@ -47,12 +47,13 @@ def weather_ouput(lat, lon,apikey):
     return temperature, weather_description, weather_emoji, sunrise, sunset
 
 temperature,weather_description,weather_emoji,sunrise,sunset = weather_ouput(lat, lon,apikey)
-outputMN = f"<br/>Currently, the weather in St Paul, MN is: <b>{temperature}°F, <i>{weather_description}</i></b>{weather_emoji}</br>Today, in St Paul, MN the sun rises at <b>{sunrise}</b> and sets at <b>{sunset}</b>.<br/>"
+outputMN = f"<br/>Currently, the weather in St Paul, MN is: <b>{temperature}°F, <i>{weather_description}</i></b>{weather_emoji}</br>"
+outputMN2 =f"Today, in St Paul, MN the sun rises at <b>{sunrise}</b> and sets at <b>{sunset}</b>.<br/>"
 temperature,weather_description,weather_emoji,sunrise,sunset = weather_ouput(lat_la, lon_la,apikey)
 current_time = datetime.datetime.now().strftime("%A, %d %B, %I:%M %p %Z")
 outputLA =f"And currently, the weather in Los Angeles, CA is: <b>{temperature}°F, <i>{weather_description}</i></b>{weather_emoji}</br>This <i>README</i> file was last refreshed on {current_time} CST.</p>"
 
-output = outputMN+outputLA
+output = outputMN+outputLA+outputMN2
 # Read the content of your README file
 # with open(BaseFolder+'/README.md', 'r+') as file:
 with open('README.md', 'r+') as file:
