@@ -9,11 +9,12 @@ import importlib
 from emoji import emojize
 import base64
 from github import Github
+from dotenv import load_dotenv
+load_dotenv('.env.production')
 
-
+apikey = os.environ['APIKEY']
 BaseFolder = os.environ.get('BASE_FOLDER')
 ScriptsFolder = os.environ.get('SCRIPTS_FOLDER')
-apikey = os.environ.get('APIKEY')
 
 
 # g = Github(os.getenv('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'))
