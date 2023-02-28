@@ -9,7 +9,7 @@ from emoji import emojize
 apikey = os.environ['APIKEY']
 BaseFolder = os.environ.get('BASE_FOLDER')
 ScriptsFolder = os.environ.get('SCRIPTS_FOLDER')
-
+    
 
 # Define a function to get the current weather data for a location and return the temperature, weather description, weather emoji, sunrise, and sunset
 def weather_output(lat, lon, apikey):
@@ -56,7 +56,7 @@ temperature_la, description_la, emoji_la, sunrise_la, sunset_la = weather_output
 output = f"<br/>Currently, the weather in St Paul, MN is: <b>{temperature_mn:.2f}°F, <i>{description_mn}</i></b>{emoji_mn}</br>" \
          f"And the weather in Los Angeles, CA is: <b>{temperature_la:.2f}°F, <i>{description_la}</i></b>{emoji_la}</br>" \
          f"Today, in St Paul, MN the sun rises at <b>{sunrise_mn}</b> and sets at <b>{sunset_mn}</b>." \
-         f"<img align='left' alt='jpg' src='https://thumbs.dreamstime.com/b/twin-cities-skyline-monochrome-silhouette-vector-illustration-203367510.jpg' width='280' height='210' />" \
+         f"<br/><br/><img align='left' alt='jpg' src='https://thumbs.dreamstime.com/b/twin-cities-skyline-monochrome-silhouette-vector-illustration-203367510.jpg' width='280' height='210' />" \
          f"<br/><img align='left' alt='jpg' src='https://static.vecteezy.com/system/resources/previews/013/749/922/original/los-angeles-city-skyline-silhouette-background-in-california-landscape-black-and-white-silhouette-vector.jpg' width='280' height='210' />" \
          "<br/><br/><br/><br/><br/><br/><br/><br/><br/>" \
          "<hr>" \
