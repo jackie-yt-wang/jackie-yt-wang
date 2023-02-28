@@ -7,11 +7,6 @@ import os
 from emoji import emojize
 from github import Github
 
-# g = Github(os.environ['TOKEN'])
-# repo = g.get_repo('jackie-yt-wang/secrets')
-# content = repo.get_contents("weather-api.txt")
-# apikey = content.decoded_content.decode('utf-8').strip('\n')
-
 apikey = os.environ['APIKEY']
 BaseFolder = os.environ.get('BASE_FOLDER')
 ScriptsFolder = os.environ.get('SCRIPTS_FOLDER')
@@ -34,7 +29,7 @@ sunset_timestamp = weather_data['current']['sunset']
 # Convert the sunrise and sunset times to your local timezone
 sunrise = datetime.datetime.fromtimestamp(sunrise_timestamp).strftime("%H:%M")
 sunset = datetime.datetime.fromtimestamp(sunset_timestamp).strftime("%H:%M")
-current_time = datetime.datetime.now().strftime("%A, %d %B, %H:%M %Z")
+current_time = datetime.datetime.now().strftime("%A, %d %B, %I:%M %p %Z")
 
 # Define the weather emoji based on the weather description
 if "cloud" in weather_description:
