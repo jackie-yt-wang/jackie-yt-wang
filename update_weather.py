@@ -6,15 +6,14 @@ import re
 import os
 from emoji import emojize
 
-apikey = os.environ['APIKEY']
+# apikey = os.environ['APIKEY']
 BaseFolder = os.environ.get('BASE_FOLDER')
 ScriptsFolder = os.environ.get('SCRIPTS_FOLDER')
-lat ='44.9670'
-lon = '-93.193816'
-lat_la = '34.0689'
-lon_la = '-118.4452'
+apikey = '16bbb6d5c78389fdcc7f64d8826e2c8d'
 
-def weather_ouput(lat, lon,apikey):
+
+# Define a function to get the current weather data for a location and return the temperature, weather description, weather emoji, sunrise, and sunset
+def weather_output(lat, lon, apikey):
     # Call the OpenWeatherMap API to get the current weather data for your location
     url = f"https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&appid={apikey}&units=imperial"
     response = requests.get(url)
@@ -43,22 +42,34 @@ def weather_ouput(lat, lon,apikey):
         weather_emoji = emojize(':snowflake:')
     else:
         weather_emoji = ""
+
     # Return the temperature, weather description, weather emoji, sunrise, and sunset
     return temperature, weather_description, weather_emoji, sunrise, sunset
 
-temperature,weather_description,weather_emoji,sunrise,sunset = weather_ouput(lat, lon,apikey)
-current_time = datetime.datetime.now().strftime("%A, %d %B, %I:%M %p %Z")
-outputMN = f"<br/>Currently, the weather in St Paul, MN is: <b>{temperature}°F, <i>{weather_description}</i></b>{weather_emoji}</br>"
-outputMN2 =f"Today, in St Paul, MN the sun rises at <b>{sunrise}</b> and sets at <b>{sunset}</b>.<br/>This <i>README</i> file was last refreshed on {current_time} CST.</p>"
-temperature,weather_description,weather_emoji,sunrise,sunset = weather_ouput(lat_la, lon_la,apikey)
-outputLA =f"And the weather in Los Angeles, CA is: <b>{temperature}°F, <i>{weather_description}</i></b>{weather_emoji}</br>"
+# Call the weather_output function for St. Paul, MN and Los Angeles, CA
+lat_mn, lon_mn = 44.9544, -93.0900  # St Paul, MN coordinates
+lat_la, lon_la = 34.0522, -118.2437  # Los Angeles, CA coordinates
 
-output = outputMN+outputLA+outputMN2
+# Call the weather_output function to get the current weather data
+temperature_mn, description_mn, emoji_mn, sunrise_mn, sunset_mn = weather_output(lat_mn, lon_mn, apikey)
+temperature_la, description_la, emoji_la, sunrise_la, sunset_la = weather_output(lat_la, lon_la, apikey)
+
+output = f"<br/>Currently, the weather in St Paul, MN is: <b>{temperature_mn:.2f}°F, <i>{description_mn}</i></b>{emoji_mn}</br>" \
+         f"And the weather in Los Angeles, CA is: <b>{temperature_la:.2f}°F, <i>{description_la}</i></b>{emoji_la}</br>" \
+         f"Today, in St Paul, MN the sun rises at <b>{sunrise_mn}</b> and sets at <b>{sunset_mn}</b>." \
+         f"<img align='left' alt='jpg' src='https://thumbs.dreamstime.com/b/twin-cities-skyline-monochrome-silhouette-vector-illustration-203367510.jpg' width='280' height='210' />" \
+         f"<br/><img align='left' alt='jpg' src='https://static.vecteezy.com/system/resources/previews/013/749/922/original/los-angeles-city-skyline-silhouette-background-in-california-landscape-black-and-white-silhouette-vector.jpg' width='280' height='210' />" \
+         "<br/><br/><br/><br/><br/><br/><br/><br/><br/>" \
+         "<hr>" \
+         "<h3>Where to find me</h3>" \
+         f"<p><a href='https://github.com/jackie-yt-wang' target='_blank'><img alt='Github' src='https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white' /></a> <a href='https://www.linkedin.com/in/jackie-yutang-wang/' target='_blank'><img alt='LinkedIn' src='https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white' /></a>" \
+         f"<br/><br/>This <i>README</i> file was last refreshed on {datetime.datetime.now().strftime('%A, %d %B, %I:%M %p %Z')}.</p>"
+
 # Read the content of your README file
 # with open(BaseFolder+'/README.md', 'r+') as file:
 with open('README.md', 'r+') as file:
     content = file.read()
     file.seek(0)
-    file.write(re.sub(r"<br\/>Currently,.*<\/p>", output, content))
+    file.write(re.sub(r"<br/>Currently,.*.</p>", output, content))
     file.truncate()
 
