@@ -24,7 +24,7 @@ jobs:
             pipenv install
       - name: Update Weather
         env: 
-          apikey: ${{ secrets.APIKEY }} 
+          APIKEY: ${{ secrets.APIKEY }} 
         run: |
           export BASE_FOLDER=$GITHUB_WORKSPACE 
           export SCRIPTS_FOLDER=${BASE_FOLDER}'/scripts'
@@ -32,7 +32,6 @@ jobs:
           export SHELL_SCRIPT_NAME='update_github_readme'
           export LOG_FILE=${LOGDIR}/${SHELL_SCRIPT_NAME}_${filenametime}.log
           export PYTHON_SCRIPT='update_weather.py'
-          export APIKEY=$(echo "$APIKEY" | base64 -d)
           pipenv run python3 ${SCRIPTS_FOLDER}/${PYTHON_SCRIPT}
           git config --global user.email "jackie.yt.wang@gmail.com"
           git config --global user.name "Jackie Wang"
