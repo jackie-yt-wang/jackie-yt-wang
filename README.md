@@ -1,8 +1,6 @@
-
 <h1>Hello Friends, Welcome!</h1>
-<img align="right" alt="GIF" src="https://github.com/jackie-yt-wang/jackie-yt-wang/blob/main/code.gif?raw=True" width="384" height="280" /><br/>
-
-I'm Jackie, a Data Developer currently located in the St Paul, Minnesota! I often travel between the Twin Cities and Los Angeles metro area. I am a foodie 🍜🥘🍣🍖😋 and love playing bball 🏀 with my friends! I am a Data Scientist on pen and paper, but when I'm free, I love to build and engineer things! During the weekends, I volunteered at [IUSM MN](https://iusmatumn.org/), a christian minsitry serving international students at the University of Minnesota.
+<p><p><p><p><img align="right" alt="GIF" src="https://github.com/jackie-yt-wang/jackie-yt-wang/blob/main/code.gif?raw=True" width="384" height="280" /><p><p><p><p}<br/> 
+<p>I'm Jackie, a Data Developer currently located in the St Paul, Minnesota!I often travel between the Twin Cities and Los Angeles metro area. I am a foodie 🍜🥘🍣🍖😋 and love playing bball 🏀 with my friends! I am a Data Scientist on pen and paper, but when I'm free, I love to build and engineer things! During the weekends, I volunteered at [IUSM MN](https://iusmatumn.org/), a christian minsitry serving international students at the University of Minnesota.<p>
 <h3>Things I code with</h3>
 <p>
 <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
