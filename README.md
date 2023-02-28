@@ -1,6 +1,6 @@
 <img align="right" alt="GIF" src="https://github.com/jackie-yt-wang/jackie-yt-wang/blob/main/code.gif?raw=True" width="380" height="280" />
 
-<h1>Hello Friends, Welcome to my Github!</h1>
+<h1>Hello Friends, Welcome!</h1>
 
 I'm Jackie, a Data Developer currently located in the St Paul, Minnesota! I am a Data Scientist on pen and paper, but when I'm free I love to build and engineer things!
 <h3>Things I code with</h3>
