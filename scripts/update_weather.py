@@ -4,8 +4,6 @@ from datetime import datetime,timezone
 import datetime
 import re
 import os
-import sys
-import importlib
 from emoji import emojize
 from github import Github
 
