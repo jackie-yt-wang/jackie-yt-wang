@@ -13,7 +13,6 @@ export SHELL_SCRIPT_NAME='update_github_readme'
 export LOG_FILE=${LOGDIR}/${SHELL_SCRIPT_NAME}_${filenametime}.log
 export PYTHON_SCRIPT='update_weather.py'
 export APIKEY=$(echo "$APIKEY" | base64 -d)
-
 #########################################################
 
 # SET LOG RULES

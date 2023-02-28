@@ -26,8 +26,15 @@ jobs:
         env: 
           apikey: ${{ secrets.APIKEY }} 
         run: |
-          chmod +x .github/workflows/update_github_readme.sh
-          ./.github/workflows/update_github_readme.sh
+          export BASE_FOLDER=$GITHUB_WORKSPACE
+        # export BASE_FOLDER='/Users/apple/Desktop/DataEngineeringBootCamp/GithubProfile/jackie-yt-wang'
+          export SCRIPTS_FOLDER=${BASE_FOLDER}'/scripts'
+          export LOGDIR=${BASE_FOLDER}'/logs'
+          export SHELL_SCRIPT_NAME='update_github_readme'
+          export LOG_FILE=${LOGDIR}/${SHELL_SCRIPT_NAME}_${filenametime}.log
+          export PYTHON_SCRIPT='update_weather.py'
+          export APIKEY=$(echo "$APIKEY" | base64 -d)
+          pipenv run python3 update_weather.py
           git config --global user.email "jackie.yt.wang@gmail.com"
           git config --global user.name "Jackie Wang"
           git add README.md

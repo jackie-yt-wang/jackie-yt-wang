@@ -8,10 +8,17 @@ import sys
 import importlib
 from emoji import emojize
 import base64
+from github import Github
+
 
 BaseFolder = os.environ.get('BASE_FOLDER')
 ScriptsFolder = os.environ.get('SCRIPTS_FOLDER')
 apikey = os.environ.get('APIKEY')
+
+
+# g = Github(os.getenv('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'))
+# repo = g.get_repo('jackie-yt-wang/secrets')
+# contents = repo.get_contents('secret.py').decoded_content
 
 # secrets_file = os.path.join(os.environ.get('SCRIPTS_FOLDER'), 'secrets.py')
 # spec = importlib.util.spec_from_file_location('secrets', secrets_file)

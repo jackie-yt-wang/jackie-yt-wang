@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 requests = "*"
 emoji = "*"
+aiohttp = "*"
+pygithub = "*"
 
 [dev-packages]
 
