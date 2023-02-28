@@ -8,7 +8,7 @@ import sys
 import importlib
 from emoji import emojize
 
-apikey = os.environ['APIKEY']
+apikey = str(os.environ['APIKEY'])
 BaseFolder = os.environ.get('BASE_FOLDER')
 ScriptsFolder = os.environ.get('SCRIPTS_FOLDER')
 
