@@ -1,0 +1,43 @@
+name: Update Weather
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 7,12,16 * * *"
+      timezone: America/Los_Angeles
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+            pip install pipenv 
+            pipenv install
+      - name: Set up environment
+        run: |
+            echo "APIKEY=${{ secrets.APIKEY }}" >> $GITHUB_ENV
+      - name: Update Weather
+        env:
+          APIKEY: ${{ secrets.APIKEY }}
+        run: |
+          export BASE_FOLDER=$GITHUB_WORKSPACE 
+          export SCRIPTS_FOLDER=${BASE_FOLDER}'/scripts'
+          export PYTHON_SCRIPT='update_weather.py'
+          TZ=America/Los_Angeles pipenv run python3 ${SCRIPTS_FOLDER}/${PYTHON_SCRIPT}
+      - name: Configure Git
+        run: |
+          git config --global user.email "jackie.yt.wang@gmail.com"
+          git config --global user.name "Jackie Wang"
+          git add README.md
+          git commit -m "Update weather"
+          git push origin main
