@@ -56,9 +56,9 @@ temperature_la, description_la, emoji_la, sunrise_la, sunset_la = weather_output
 output = f"<br/>Currently, the weather in St Paul, MN is: <b>{temperature_mn:.2f}°F, <i>{description_mn}</i></b>{emoji_mn}</br>" \
          f"And the weather in Los Angeles, CA is: <b>{temperature_la:.2f}°F, <i>{description_la}</i></b>{emoji_la}</br>" \
          f"Today, in St Paul, MN the sun rises at <b>{sunrise_mn}</b> and sets at <b>{sunset_mn}</b>." \
-         f"<br/><br/><img align='left' alt='jpg' src='https://thumbs.dreamstime.com/b/twin-cities-skyline-monochrome-silhouette-vector-illustration-203367510.jpg' width='280' height='210' />" \
-         f"<br/><img align='left' alt='jpg' src='https://static.vecteezy.com/system/resources/previews/013/749/922/original/los-angeles-city-skyline-silhouette-background-in-california-landscape-black-and-white-silhouette-vector.jpg' width='280' height='210' />" \
-         "<br/><br/><br/><br/><br/><br/><br/><br/><br/>" \
+         f"<br/><br/><img align='left' alt='jpg' src='https://thumbs.dreamstime.com/b/twin-cities-skyline-monochrome-silhouette-vector-illustration-203367510.jpg' width='180' height='135' />" \
+         f"<br/><img align='left' alt='jpg' src='https://static.vecteezy.com/system/resources/previews/013/749/922/original/los-angeles-city-skyline-silhouette-background-in-california-landscape-black-and-white-silhouette-vector.jpg' width='180' height='135' />" \
+         "<br/><br/><br/><br/><br/><br/>" \
          "<hr>" \
          "<h3>Where to find me</h3>" \
          f"<p><a href='https://github.com/jackie-yt-wang' target='_blank'><img alt='Github' src='https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white' /></a> <a href='https://www.linkedin.com/in/jackie-yutang-wang/' target='_blank'><img alt='LinkedIn' src='https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white' /></a>" \
