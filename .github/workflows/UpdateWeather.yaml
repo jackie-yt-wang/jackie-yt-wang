@@ -33,8 +33,6 @@ jobs:
           export PYTHON_SCRIPT='update_weather.py'
           echo ${{ secrets.APIKEY }} | base64 -d | iconv -f utf-16 -t utf-8 > ${BASE_FOLDER}/.env.production
           pipenv run python3 ${SCRIPTS_FOLDER}/${PYTHON_SCRIPT}
-
-          # Push changes to the repository
           git config --global user.email "jackie.yt.wang@gmail.com"
           git config --global user.name "Jackie Wang"
           git add README.md
