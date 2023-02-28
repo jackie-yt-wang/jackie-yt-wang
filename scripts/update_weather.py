@@ -8,20 +8,9 @@ import sys
 import importlib
 from emoji import emojize
 
-apikey = str(os.environ['APIKEY'])
+apikey = os.environ['APIKEY']
 BaseFolder = os.environ.get('BASE_FOLDER')
 ScriptsFolder = os.environ.get('SCRIPTS_FOLDER')
-
-
-# repo = g.get_repo('jackie-yt-wang/secrets')
-# contents = repo.get_contents('secret.py').decoded_content
-
-# secrets_file = os.path.join(os.environ.get('SCRIPTS_FOLDER'), 'secrets.py')
-# spec = importlib.util.spec_from_file_location('secrets', secrets_file)
-# secrets = importlib.util.module_from_spec(spec)
-# spec.loader.exec_module(secrets)
-# apikey = secrets.apikey
-
 lat ='44.9670'
 lon = '-93.193816'
 
