@@ -54,7 +54,8 @@ outputLA =f"And currently, the weather in Los Angeles, CA is: <b>{temperature}°
 
 output = outputMN+outputLA
 # Read the content of your README file
-with open(BaseFolder+'/README.md', 'r+') as file:
+# with open(BaseFolder+'/README.md', 'r+') as file:
+with open('README.md', 'r+') as file:
     content = file.read()
     file.seek(0)
     file.write(re.sub(r"<br\/>Currently,.*<\/p>", output, content))

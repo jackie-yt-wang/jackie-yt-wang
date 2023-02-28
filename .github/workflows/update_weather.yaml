@@ -31,9 +31,8 @@ jobs:
           APIKEY: ${{ secrets.APIKEY }}
         run: |
           export BASE_FOLDER=$GITHUB_WORKSPACE 
-          export SCRIPTS_FOLDER=${BASE_FOLDER}'/scripts'
           export PYTHON_SCRIPT='update_weather.py'
-          TZ=America/Chicago pipenv run python3 ${SCRIPTS_FOLDER}/${PYTHON_SCRIPT}
+          TZ=America/Chicago pipenv run python3 ${PYTHON_SCRIPT}
       - name: Configure Git
         run: |
           git config --global user.email "jackie.yt.wang@gmail.com"
