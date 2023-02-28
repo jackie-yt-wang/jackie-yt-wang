@@ -6,7 +6,6 @@ on:
       - main
   schedule:
     - cron: "0 7,12,16 * * *"
-      timezone: America/Chicago
   workflow_dispatch:
 
 jobs:
@@ -34,7 +33,7 @@ jobs:
           export SCRIPTS_FOLDER=${BASE_FOLDER}'/scripts'
           export SHELL_SCRIPT_NAME='update_github_readme'
           export PYTHON_SCRIPT='update_weather.py'
-          pipenv run python3 ${SCRIPTS_FOLDER}/${PYTHON_SCRIPT}
+          TZ=America/Chicago pipenv run python3 ${SCRIPTS_FOLDER}/${PYTHON_SCRIPT}
       - name: Configure Git
         run: |
           git config --global user.email "jackie.yt.wang@gmail.com"
