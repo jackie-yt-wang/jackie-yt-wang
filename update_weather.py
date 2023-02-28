@@ -62,7 +62,7 @@ output = f"<br/>Currently, the weather in St Paul, MN is: <b>{temperature_mn:.2f
          "<hr>" \
          "<h3>Where to find me</h3>" \
          f"<p><a href='https://github.com/jackie-yt-wang' target='_blank'><img alt='Github' src='https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white' /></a> <a href='https://www.linkedin.com/in/jackie-yutang-wang/' target='_blank'><img alt='LinkedIn' src='https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white' /></a>" \
-         f"<br/><br/>This <i>README</i> file was last refreshed on {datetime.datetime.now().strftime('%A, %d %B, %I:%M %p %Z')}.</p>"
+         f"<br/><br/>This <i>README</i> file was last refreshed on {datetime.datetime.now().strftime('%A, %d %B, %I:%M %p %Z')} CST.</p>"
 
 # Read the content of your README file
 # with open(BaseFolder+'/README.md', 'r+') as file:
