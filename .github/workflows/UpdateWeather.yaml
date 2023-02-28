@@ -23,8 +23,8 @@ jobs:
             pip install pipenv 
             pipenv install
       - name: Set up environment
-      run: |
-        echo "TOKEN=${{ secrets.TOKEN }}" >> $GITHUB_ENV
+        run: |
+            echo "TOKEN=${{ secrets.TOKEN }}" >> $GITHUB_ENV
       - name: Update Weather
         env:
           TOKEN: ${{ secrets.TOKEN }}
@@ -39,9 +39,3 @@ jobs:
           git add README.md
           git commit -m "Update weather"
           git push origin main
-
-
-
-
-
-      

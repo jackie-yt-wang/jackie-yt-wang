@@ -14,7 +14,6 @@ repo = g.get_repo('jackie-yt-wang/secrets')
 content = repo.get_contents("weather-api.txt")
 apikey = content.decoded_content.decode('utf-8').strip('\n')
 
-
 BaseFolder = os.environ.get('BASE_FOLDER')
 ScriptsFolder = os.environ.get('SCRIPTS_FOLDER')
 lat ='44.9670'
