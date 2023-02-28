@@ -9,11 +9,12 @@ import importlib
 from emoji import emojize
 from github import Github
 
-g = Github(os.environ['TOKEN'])
-repo = g.get_repo('jackie-yt-wang/secrets')
-content = repo.get_contents("weather-api.txt")
-apikey = content.decoded_content.decode('utf-8').strip('\n')
+# g = Github(os.environ['TOKEN'])
+# repo = g.get_repo('jackie-yt-wang/secrets')
+# content = repo.get_contents("weather-api.txt")
+# apikey = content.decoded_content.decode('utf-8').strip('\n')
 
+apikey = os.environ['APIKEY']
 BaseFolder = os.environ.get('BASE_FOLDER')
 ScriptsFolder = os.environ.get('SCRIPTS_FOLDER')
 lat ='44.9670'
@@ -49,7 +50,7 @@ elif 'snow' in weather_description:
 else:
     weather_emoji = ""
 
-output = f"<br/>Currently, the weather is: <b>{temperature}°C, <i>{weather_description}</i></b>{weather_emoji}</br>Today, the sun rises at <b>{sunrise}</b> and sets at <b>{sunset}</b>.</p>This <i>README</i> file was last refreshed on {current_time}.</p>"
+output = f"<br/>Currently, the weather in St Paul, MN is: <b>{temperature}°F, <i>{weather_description}</i></b>{weather_emoji}</br>Today, the sun rises at <b>{sunrise}</b> and sets at <b>{sunset}</b>.</p>This <i>README</i> file was last refreshed on {current_time}.</p>"
 
 # Read the content of your README file
 with open(BaseFolder+'/README.md', 'r+') as file:

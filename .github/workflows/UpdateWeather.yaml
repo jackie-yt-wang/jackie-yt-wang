@@ -8,6 +8,9 @@ on:
     - cron: "0 7,12,16 * * *"
   workflow_dispatch:
 
+  env:
+  TZ: America/Chicago
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -24,10 +27,10 @@ jobs:
             pipenv install
       - name: Set up environment
         run: |
-            echo "TOKEN=${{ secrets.TOKEN }}" >> $GITHUB_ENV
+            echo "APIKEY=${{ secrets.APIKEY }}" >> $GITHUB_ENV
       - name: Update Weather
         env:
-          TOKEN: ${{ secrets.TOKEN }}
+          APIKEY: ${{ secrets.APIKEY }}
         run: |
           export BASE_FOLDER=$GITHUB_WORKSPACE 
           export SCRIPTS_FOLDER=${BASE_FOLDER}'/scripts'
