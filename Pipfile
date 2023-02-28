@@ -6,9 +6,7 @@ name = "pypi"
 [packages]
 requests = "*"
 emoji = "*"
-aiohttp = "*"
-pygithub = "*"
-python-dotenv = "*"
+
 
 [dev-packages]
 
