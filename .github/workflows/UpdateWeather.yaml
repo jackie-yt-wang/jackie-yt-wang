@@ -38,11 +38,6 @@ jobs:
         run: |
           git config --global user.email "jackie.yt.wang@gmail.com"
           git config --global user.name "Jackie Wang"
-          git remote set-url origin "https://github.com/jackie-yt-wang/jackie-yt-wang.git"
-          git fetch
-          git checkout main
           git add README.md
           git commit -m "Update weather"
-          git push --set-upstream origin main
-        env:
-          TOKEN: ${{ secrets.TOKEN }}
+          git push origin main
