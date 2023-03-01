@@ -8,7 +8,7 @@
 <li>I am a foodie 🍜🥘🍣🍖😋 and love playing bball 🏀.</li>
 <li>I am a Data Scientist on pen and paper, but when I'm free, I love to build and engineer things.</li>
 <li>I often travel between the Twin Cities and Los Angeles metro area.</li>
-<li>During the weekends, I volunteered at <a href="https://iusmatumn.org/" target="_blank">IUSM MN</a>, a Christian ministry serving international students at the University of Minnesota.</li>
+<li>During the weekends, I volunteer at <a href="https://iusmatumn.org/" target="_blank">IUSM MN</a>, a Christian ministry serving international students at the University of Minnesota.</li>
 </ul>
 </p>
 <h3>Things I code with</h3>
