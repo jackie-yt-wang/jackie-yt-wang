@@ -4,7 +4,7 @@
 <h3>Here are some fun facts about me:</h3>
 <ul>
 <li>I'm Jackie. Nice to meet you👋!</li>
-<li>I'm a Data Developer living in the land of snow ❄️, also known as the Twin Cities.</li>
+<li>I'm currently living in the Twin Cities❄️.</li>
 <li>I am a foodie 🍜🥘🍣🍖😋 and love playing bball 🏀.</li>
 <li>I am a Data Scientist on pen and paper, but when I'm free, I love to build and engineer things.</li>
 <li>I often travel between the Twin Cities and Los Angeles metro area.</li>
