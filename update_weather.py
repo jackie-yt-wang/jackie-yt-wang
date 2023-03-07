@@ -53,7 +53,7 @@ lat_la, lon_la = 34.0522, -118.2437  # Los Angeles, CA coordinates
 temperature_mn, description_mn, emoji_mn, sunrise_mn, sunset_mn = weather_output(lat_mn, lon_mn, apikey)
 temperature_la, description_la, emoji_la, sunrise_la, sunset_la = weather_output(lat_la, lon_la, apikey)
 
-output = f"<br/>Currently, the weather in St Paul, MN is: <b>{temperature_mn:.2f}°F, <i>{description_mn}</i></b>{emoji_mn}</br>" \
+output = f"Currently, the weather in St Paul, MN is: <b>{temperature_mn:.2f}°F, <i>{description_mn}</i></b>{emoji_mn}</br>" \
          f"And the weather in Los Angeles, CA is: <b>{temperature_la:.2f}°F, <i>{description_la}</i></b>{emoji_la}</br>" \
          f"Today, in St Paul, MN the sun rises at <b>{sunrise_mn}</b> and sets at <b>{sunset_mn}</b>." \
          f"<br/><br/><img align='left' alt='jpg' src='https://thumbs.dreamstime.com/b/twin-cities-skyline-monochrome-silhouette-vector-illustration-203367510.jpg' width='180' height='135' />" \
@@ -69,6 +69,6 @@ output = f"<br/>Currently, the weather in St Paul, MN is: <b>{temperature_mn:.2f
 with open('README.md', 'r+') as file:
     content = file.read()
     file.seek(0)
-    file.write(re.sub(r"<br/>Currently,.*.</p>", output, content))
+    file.write(re.sub(r"Currently,.*.</p>", output, content))
     file.truncate()
 
