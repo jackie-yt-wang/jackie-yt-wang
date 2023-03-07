@@ -6,12 +6,12 @@
 <li>I'm Jackie. Nice to meet you👋!</li>
 <li>I'm a Data Developer living in the Twin Cities ❄️.</li>
 <li>I am a foodie 🍜🥘🍣🍖, and love playing bball 🏀.</li>
-<li>I am a Data Scientist on pen and paper, but when I'm free, I love to build and engineer things🛠️.</li>
+<li>I am exicted when it comes to engineering data pipelines 🛠️.</li>
 <li>I  travel ✈️ between MSP and LAX.</li>
 <li>During the weekends, I volunteer at <a href="https://iusmatumn.org/" target="_blank">IUSM MN</a>, a Christian ministry serving international students at the University of Minnesota.</li>
 </ul>
 </p>
-<h3>Things I code with</h3>
+<h3>Things I code with 💻:</h3>
 <p>
 <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img alt="Visual Studio Code" src="https://img.shields.io/badge/-Visual%20Studio%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" />
@@ -33,5 +33,7 @@
 <img alt="Linux" src="https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
 <img alt="Shell Scripting" src="https://img.shields.io/badge/-Shell%20Scripting-121011?style=flat-square&logo=gnu-bash&logoColor=white" />
 <img alt="Ubuntu" src="https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=Ubuntu&logoColor=white" />
-
- <br/>Currently, the weather in St Paul, MN is: <b>30.42°F, <i>clear sky</i></b>:sunny:</br>And the weather in Los Angeles, CA is: <b>50.31°F, <i>scattered clouds</i></b>☁️</br>Today, in St Paul, MN the sun rises at <b>06:41</b> and sets at <b>18:05</b>.<br/><br/><img align='left' alt='jpg' src='https://thumbs.dreamstime.com/b/twin-cities-skyline-monochrome-silhouette-vector-illustration-203367510.jpg' width='180' height='135' /><br/><img align='left' alt='jpg' src='https://static.vecteezy.com/system/resources/previews/013/749/922/original/los-angeles-city-skyline-silhouette-background-in-california-landscape-black-and-white-silhouette-vector.jpg' width='180' height='135' /><br/><br/><br/><br/><br/><br/><hr><h3>Where to find me</h3><p><a href='https://github.com/jackie-yt-wang' target='_blank'><img alt='Github' src='https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white' /></a> <a href='https://www.linkedin.com/in/jackie-yutang-wang/' target='_blank'><img alt='LinkedIn' src='https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white' /></a><br/><br/>This <i>README</i> file was last refreshed on Monday, 06 March, 10:48 PM  CST.</p>
+ <br/>
+ <br/>
+<h3>Weather Helper ☁️:</h3>
+Currently, the weather in St Paul, MN is: <b>32.04°F, <i>scattered clouds</i></b>☁️</br>And the weather in Los Angeles, CA is: <b>51.67°F, <i>scattered clouds</i></b>☁️</br>Today, in St Paul, MN the sun rises at <b>06:41</b> and sets at <b>18:05</b>.<br/><br/><img align='left' alt='jpg' src='https://thumbs.dreamstime.com/b/twin-cities-skyline-monochrome-silhouette-vector-illustration-203367510.jpg' width='180' height='135' /><br/><img align='left' alt='jpg' src='https://static.vecteezy.com/system/resources/previews/013/749/922/original/los-angeles-city-skyline-silhouette-background-in-california-landscape-black-and-white-silhouette-vector.jpg' width='180' height='135' /><br/><br/><br/><br/><br/><br/><hr><h3>Where to find me</h3><p><a href='https://github.com/jackie-yt-wang' target='_blank'><img alt='Github' src='https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white' /></a> <a href='https://www.linkedin.com/in/jackie-yutang-wang/' target='_blank'><img alt='LinkedIn' src='https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white' /></a><br/><br/>This <i>README</i> file was last refreshed on Monday, 06 March, 09:26 PM  CST.</p>
