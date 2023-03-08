@@ -6,8 +6,8 @@
 <li>I'm Jackie. Nice to meet you👋!</li>
 <li>I'm a Data Developer living in the Twin Cities ❄️.</li>
 <li>I am a foodie 🍜🥘🍣🍖.</li>
-<li>I am exicted when it comes to engineering data pipelines 🛠️.</li>
-<li>I  travel ✈️ between MSP and LAX.</li>
+<li>I love building and engineering data pipelines 🛠️.</li>
+<li>I like to travel between MSP and LAX ✈️ .</li>
 <li>During the weekends, I volunteer at <a href="https://iusmatumn.org/" target="_blank">IUSM MN</a>, a Christian ministry serving international students at the University of Minnesota.</li>
 </ul>
 </p>
