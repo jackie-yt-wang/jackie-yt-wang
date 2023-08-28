@@ -29,8 +29,8 @@
 <p>
 <h3>Here are some fun facts about me:</h3>
 
-<li>I'm Jackie. Nice to meet you👋!</li>
-<li>I'm a Data Scientist/Data Engineer living in the Twin Cities❄️, but I'm moving to Los Angeles soon! .</li>
+<li>I'm Jackie. Nice to meet you 👋!</li>
+<li>I'm a Data Engineer living Los Angeles ☀️!</li>
 <li>I am a foodie 🍜🥘🍣🍖.</li>
 <li>I love building and engineering data pipelines 🛠️.</li>
 <li>I often travel between MSP and LAX ✈️ (Hence the weather helper below 👇) .</li>
